@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ع AIN by Khurrath - Timeless Modest Elegance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="arabic-letter">ع</span>
+                <span class="brand-name">AIN</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>
+                <span class="arabic-letter-large">ع</span>
+                <br>AIN
+            </h1>
+            <p class="tagline">Timeless Modest Elegance</p>
+            <p class="subtitle">Elevate your style with sophisticated abayas crafted for the modern woman</p>
+            <a href="#products" class="cta-button">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Collection</h2>
+            <p class="section-subtitle">Each abaya designed for timeless elegance</p>
+            
+            <div class="products-grid">
+                <!-- Product 1: Midnight Lace Abaya -->
+                <div class="product-card">
+                    <div class="product-image midnight-lace"></div>
+                    <h3>Midnight Lace Abaya</h3>
+                    <p class="product-description">Elegant lace overlay with sophisticated draping</p>
+                    <p class="price">₹2,700</p>
+                    <button class="add-to-cart" onclick="addToCart('Midnight Lace Abaya', 2700)">Add to Cart</button>
+                </div>
+
+                <!-- Product 2: White Polka Dot Abaya -->
+                <div class="product-card">
+                    <div class="product-image white-polka"></div>
+                    <h3>White Polka Dot Abaya</h3>
+                    <p class="product-description">Crisp white with delicate polka dot pattern</p>
+                    <p class="price">₹2,700</p>
+                    <button class="add-to-cart" onclick="addToCart('White Polka Dot Abaya', 2700)">Add to Cart</button>
+                </div>
+
+                <!-- Product 3: Black Polka Dot Abaya -->
+                <div class="product-card">
+                    <div class="product-image black-polka"></div>
+                    <h3>Black Polka Dot Abaya</h3>
+                    <p class="product-description">Classic black with refined polka dot design</p>
+                    <p class="price">₹2,700</p>
+                    <button class="add-to-cart" onclick="addToCart('Black Polka Dot Abaya', 2700)">Add to Cart</button>
+                </div>
+
+                <!-- Product 4: Zebra Stripe Abaya -->
+                <div class="product-card">
+                    <div class="product-image zebra"></div>
+                    <h3>Zebra Stripe Abaya</h3>
+                    <p class="product-description">Bold zebra pattern with timeless appeal</p>
+                    <p class="price">₹2,700</p>
+                    <button class="add-to-cart" onclick="addToCart('Zebra Stripe Abaya', 2700)">Add to Cart</button>
+                </div>
+
+                <!-- Product 5: Leopard Print Abaya -->
+                <div class="product-card">
+                    <div class="product-image leopard"></div>
+                    <h3>Leopard Print Abaya</h3>
+                    <p class="product-description">Luxurious leopard print in warm tones</p>
+                    <p class="price">₹2,700</p>
+                    <button class="add-to-cart" onclick="addToCart('Leopard Print Abaya', 2700)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About ع AIN</h2>
+            <p>At ع AIN by Khurrath, we believe that modesty is a form of beauty. Our collection celebrates timeless elegance through thoughtfully designed abayas that empower women to express their style with confidence and grace.</p>
+            <div class="values">
+                <div class="value-item">
+                    <h4>Timeless</h4>
+                    <p>Designs that transcend trends</p>
+                </div>
+                <div class="value-item">
+                    <h4>Elegant</h4>
+                    <p>Sophistication in every layer</p>
+                </div>
+                <div class="value-item">
+                    <h4>Modest</h4>
+                    <p>Beauty in simplicity</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>Have questions? We'd love to hear from you.</p>
+            
+            <form class="contact-form" onsubmit="handleContactForm(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ع AIN by Khurrath. All rights reserved.</p>
+            <p>Timeless Modest Elegance</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
