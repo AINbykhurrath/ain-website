@@ -1,0 +1,22 @@
+{
+  "name": "ain-website",
+  "version": "1.0.0",
+  "description": "ع AIN by Khurrath - Timeless Modest Elegance Fashion Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html",
+    "deploy": "echo 'Website is ready for GitHub Pages deployment'"
+  },
+  "keywords": [
+    "fashion",
+    "abayas",
+    "modest-fashion",
+    "elegance"
+  ],
+  "author": "AIN by Khurrath",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AINbykhurrath/ain-website.git"
+  }
+}
